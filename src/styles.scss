@@ -1,0 +1,14 @@
+@import 'scss/coloured';
+
+.visa {
+  background-image: url('assets/visa.svg');
+}
+.visa-1 {
+  background: url('assets/visa.svg');
+}
+.visa-2 {
+  background: transparent, url('assets/visa.svg');
+}
+.visa-3 {
+  background: url('assets/visa.svg'), transparent;
+}

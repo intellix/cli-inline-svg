@@ -1,0 +1,19 @@
+$colors: red green black blue pink purple yellow orange violet indigo white grey #000 #111 #222 #333 #444 #555 #666 #777 #888 #999 #aaa #bbb #ccc #ddd #eee;
+
+@each $color in $colors {
+  .inverse {
+    .visa {
+      background-image: $color, url('assets/visa.svg');
+    }
+    .visa-1 {
+      background: url('assets/visa.svg'), $color;
+    }
+    .visa-2 {
+      background: transparent, url('assets/visa.svg');
+      color: $color;
+    }
+    .visa-3 {
+      background: url('assets/visa.svg'), $color;
+    }
+  }
+}

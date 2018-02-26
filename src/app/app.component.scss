@@ -1,0 +1,14 @@
+:host {
+  .app-visa {
+    background-image: url('/assets/visa.svg');
+  }
+  .app-visa-1 {
+    background: url('/assets/visa.svg');
+  }
+  .app-visa-2 {
+    background: transparent, url('/assets/visa.svg');
+  }
+  .app-visa-3 {
+    background: url('/assets/visa.svg'), transparent;
+  }
+}
